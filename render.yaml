@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: quotex-signal-bot
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: TELEGRAM_TOKEN
+        sync: false
+      - key: CHAT_ID
+        sync: false
+      - key: QUOTEX_EMAIL_1
+        sync: false
+      - key: QUOTEX_PASSWORD_1
+        sync: false
+      - key: QUOTEX_EMAIL_2
+        sync: false
+      - key: QUOTEX_PASSWORD_2
+        sync: false
+      - key: QUOTEX_EMAIL_3
+        sync: false
+        # ...other accounts
