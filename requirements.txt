@@ -1,6 +1,0 @@
-talib
-numpy
-pandas
-python-dotenv
-python-telegram-bot==20.8
-git+https://github.com/OpenBinary/quotexapi.git
